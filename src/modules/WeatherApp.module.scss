@@ -1,0 +1,49 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+}
+
+.input-container {
+  display: flex;
+  text-decoration: none;
+  margin-bottom: 20px;
+
+  .input-field {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid grey;
+    border-radius: 15px;
+  }
+  .button {
+    background-color: orange;
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    &:hover {
+      background-color: rgb(134, 98, 32);
+    }
+  }
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}
+
+.weather-container {
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 15px;
+  margin-top: 20px;
+
+  .weather-icon {
+    width: 100px;
+    height: 1--px;
+    margin: 10px auto;
+    display: block;
+  }
+}
